@@ -6,19 +6,19 @@ formulario.addEventListener('submit', (e) => {
 
 
 // 	Variables que contienen los valores de cada input del formulario.
-let nombre = document.getElementById('nombre').value;
-let codigo = document.getElementById('codigo').value;
-let  fecha = document.getElementById('fecha').value;
-let direccion = document.getElementById('direccion').value;
-let telefono_fijo = document.getElementById('telefono_fijo').value;
-let telefono = document.getElementById('telefono').value;
-let email = document.getElementById('email').value;
+nombre = document.getElementById('nombre').value;
+codigo = document.getElementById('codigo').value;
+fecha = document.getElementById('fecha').value;
+direccion = document.getElementById('direccion').value;
+telefono_fijo = document.getElementById('telefono_fijo').value;
+telefono = document.getElementById('telefono').value;
+email = document.getElementById('email').value;
 
 
 // Expresiones regulares para validar el formulario.
 expRegNombre = /^[a-zA-ZÀ-ÿ\s]{1,40}$/; // Letras y espacios, pueden llevar acentos.
 expRegCodigo = /^[1-9]{8}$/; // / 7 digitos numericos y que no empiece por 0
-expRegFecha = /^([0-2][0-9]|(3)[0-1])(\/)(((0)[0-9])|((1)[0-2]))(\/)\d{4}$/;
+expRegFecha = /^\d{4}[\-\/\s]?((((0[13578])|(1[02]))[\-\/\s]?(([0-2][0-9])|(3[01])))|(((0[469])|(11))[\-\/\s]?(([0-2][0-9])|(30)))|(02[\-\/\s]?[0-2][0-9]))$/;
 expRegDireccion = /^[a-zA-Z0-9|#-]$/;
 expRegTelefono_fijo = /^[0-9]{7}$/; // Que contenga 7 números
 expRegTelefono = /^[3][0-9]{9}$/; // Que comience por 3 y que contenga 10 números
@@ -136,5 +136,6 @@ else{
 
 
 
-	
+
+
 	
