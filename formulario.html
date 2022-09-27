@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/jszip.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/xlsx.js"></script>
-  </head>
 
+  </head>
   <body>
     <div class="contacto">
       <div>
@@ -140,14 +140,36 @@
           >
             <p>Exportar</p>
           </button>
+          <br />
           <button
             type="button"
             class="formulario__btn"
             name="importar_formulario"
             id="importar"
           >
+          
             <p>Importar</p>
           </button>
+          
+          <button
+          onclick="exportTableToExcel()"
+          type="button"
+          class="formulario__btn"
+          name="importar_formulario"
+          id="btnExport"
+        >
+          <p>Exportar a EXCEL</p>
+        </button>
+ 
+        <button
+        onclick="tableExport()"
+          type="button"
+          class="formulario__btn"
+          name="importar_formulario"
+          id="txtExport"
+        >
+          <p>Exportar a TXT</p>
+        </button>
 
           <br />
           <br />
@@ -184,5 +206,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script src="https://gitcdn.xyz/repo/FuriosoJack/TableHTMLExport/v1.0.0/src/tableHTMLExport.js"></script>
   </body>
 </html>
+
