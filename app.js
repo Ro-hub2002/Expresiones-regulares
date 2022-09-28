@@ -32,7 +32,6 @@ if(!expRegNombre.test(nombre)){
 		title: "Error: Ingrese un nombre valido",
 		icon: "error"
 	  });
-	document.getElementById('formulario_label')
 	return false;
 }
 

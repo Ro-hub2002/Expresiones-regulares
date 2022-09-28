@@ -11,7 +11,7 @@ Swal.fire({
 	// grow:
 	// backdrop:
 	timer: 7000,
-	timerProgressBar: true
+	timerProgressBar: true,
 	// toast:
 	// position:
 	// allowOutsideClick:
@@ -40,7 +40,7 @@ Swal.fire({
 	// 	footer:	
 
 	// showConfirmButton:
-	// confirmButtonColor:
+	confirmButtonColor: '#F17474'
 	// confirmButtonAriaLabel:
 
 	// showCancelButton:

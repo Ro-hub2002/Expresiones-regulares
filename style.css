@@ -58,7 +58,7 @@ button{
 
 
 button p{
-  color: #fff; 
+  color: #fdddca; 
 }
 
 h1{
@@ -78,7 +78,7 @@ h3{
 
 p{
   font-size: 14px; 
-  color: #684381; 
+  color: #fdddca; 
 }
 
 
@@ -112,8 +112,8 @@ tr:hover td { background: #d0dafd; color:black; }
     height: 45px;
     line-height: 20px;
     width: 30%;
-    background: #8F77A0 ;
-    color: #fff;
+    background: #F17474 ;
+    color: black;
     font-weight: bold;
     border: none;
     border-radius: 3px;
