@@ -164,3 +164,4 @@ function exportTableToExcel(tableSelect, filename = 'Estudiantes') {
         downloadLink.click();
     }
 }
+
